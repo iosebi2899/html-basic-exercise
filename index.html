@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Your Electronics Shop</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            font-size: 16px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 36px;
+            background-color: #ecf0f1;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 24px;
+            text-align: center;
+        }
+        
+        h3 {
+            color: #2980b9;
+            font-size: 20px;
+        }
+        
+        h4 {
+            color: #27ae60;
+            font-size: 18px;
+        }
+        
+        .header {
+            background-color: #3498db;
+            text-align: center;
+        }
+        
+        .navigation {
+            background-color: #2c3e50;
+            text-align: center;
+        }
+        
+        .navigation a {
+            color: #ffffff;
+            font-size: 18px;
+        }
+        
+        .product-grid {
+            background-color: #ffffff;
+        }
+        
+        .product {
+            background-color: #ecf0f1;
+        }
+        
+        .product img {
+            object-fit: cover;
+        }
+        
+        .price {
+            color: #e74c3c;
+            font-size: 20px;
+        }
+        
+        .description {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        .footer {
+            background-color: #34495e;
+            color: #ffffff;
+            text-align: center;
+        }
+        
+        .contact-info {
+            background-color: #2c3e50;
+            color: #ffffff;
+        }
+        
+        .category-title {
+            color: #8e44ad;
+            font-size: 22px;
+            text-align: center;
+        }
+        
+        .feature-list {
+            color: #16a085;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>TechStore</h1>
+        <p>Your One-Stop Electronics Shop</p>
+    </div>
+    
+    <div class="navigation">
+        <p>
+            <a href="#smartphones">Smartphones</a> | 
+            <a href="#laptops">Laptops</a> | 
+            <a href="#accessories">Accessories</a> | 
+            <a href="#contact">Contact</a>
+        </p>
+    </div>
+    
+    <div class="product-grid">
+        <h2 id="smartphones" class="category-title">Smartphones</h2>
+        
+        <div class="product">
+            <h3>iPhone 15 Pro</h3>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect width='300' height='200' fill='%233498db'/%3E%3Ctext x='150' y='100' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='18'%3EiPhone 15 Pro%3C/text%3E%3C/svg%3E" alt="iPhone 15 Pro">
+            <p class="price">$999</p>
+            <p class="description">Latest Apple smartphone with advanced camera system and A17 Pro chip.</p>
+            <h4>Key Features:</h4>
+            <ul class="feature-list">
+                <li>6.1-inch Super Retina XDR display</li>
+                <li>48MP camera system</li>
+                <li>A17 Pro chip</li>
+                <li>USB-C connectivity</li>
+            </ul>
+        </div>
+        
+        <div class="product">
+            <h3>Samsung Galaxy S24</h3>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect width='300' height='200' fill='%23e74c3c'/%3E%3Ctext x='150' y='100' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='18'%3EGalaxy S24%3C/text%3E%3C/svg%3E" alt="Samsung Galaxy S24">
+            <p class="price">$799</p>
+            <p class="description">Premium Android phone with AI-powered features and exceptional display.</p>
+            <h4>Specifications:</h4>
+            <ol class="feature-list">
+                <li>6.2-inch Dynamic AMOLED display</li>
+                <li>50MP triple camera</li>
+                <li>Snapdragon 8 Gen 3</li>
+                <li>8GB RAM, 256GB storage</li>
+            </ol>
+        </div>
+        
+        <h2 id="laptops" class="category-title">Laptops</h2>
+        
+        <div class="product">
+            <h3>MacBook Air M3</h3>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect width='300' height='200' fill='%2327ae60'/%3E%3Ctext x='150' y='100' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='16'%3EMacBook Air M3%3C/text%3E%3C/svg%3E" alt="MacBook Air M3">
+            <p class="price">$1,199</p>
+            <p class="description">Lightweight laptop with powerful M3 chip for productivity and creativity.</p>
+            <h4>Technical Details:</h4>
+            <dl class="feature-list">
+                <dt>Processor</dt>
+                <dd>Apple M3 chip with 8-core CPU</dd>
+                <dt>Memory</dt>
+                <dd>8GB unified memory</dd>
+                <dt>Storage</dt>
+                <dd>256GB SSD</dd>
+                <dt>Display</dt>
+                <dd>13.6-inch Liquid Retina</dd>
+            </dl>
+        </div>
+        
+        <div class="product">
+            <h3>Dell XPS 13</h3>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect width='300' height='200' fill='%239b59b6'/%3E%3Ctext x='150' y='100' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='18'%3EDell XPS 13%3C/text%3E%3C/svg%3E" alt="Dell XPS 13">
+            <p class="price">$899</p>
+            <p class="description">Premium Windows ultrabook with stunning InfinityEdge display.</p>
+            <h4>What's Included:</h4>
+            <ul class="feature-list">
+                <li>Dell XPS 13 laptop</li>
+                <li>65W USB-C power adapter</li>
+                <li>Quick start guide</li>
+                <li>1-year warranty</li>
+            </ul>
+        </div>
+        
+        <h2 id="accessories" class="category-title">Accessories</h2>
+        
+        <div class="product">
+            <h3>Wireless Earbuds Pro</h3>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect width='300' height='200' fill='%23f39c12'/%3E%3Ctext x='150' y='100' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='16'%3EEarbuds Pro%3C/text%3E%3C/svg%3E" alt="Wireless Earbuds">
+            <p class="price">$149</p>
+            <p class="description">Premium wireless earbuds with active noise cancellation.</p>
+            <h5>Features:</h5>
+            <ul class="feature-list">
+                <li>Active noise cancellation</li>
+                <li>30-hour battery life</li>
+                <li>Wireless charging case</li>
+            </ul>
+        </div>
+        
+        <div class="product">
+            <h3>USB-C Hub</h3>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200'%3E%3Crect width='300' height='200' fill='%231abc9c'/%3E%3Ctext x='150' y='100' text-anchor='middle' dy='.3em' fill='white' font-family='Arial' font-size='18'%3EUSB-C Hub%3C/text%3E%3C/svg%3E" alt="USB-C Hub">
+            <p class="price">$49</p>
+            <p class="description">7-in-1 USB-C hub for enhanced connectivity.</p>
+            <h6>Ports Available:</h6>
+            <ol class="feature-list">
+                <li>2x USB 3.0 ports</li>
+                <li>HDMI 4K output</li>
+                <li>SD card reader</li>
+                <li>Ethernet port</li>
+            </ol>
+        </div>
+    </div>
+    
+    <div class="contact-info" id="contact">
+        <h2>Contact Information</h2>
+        <p>Visit our store or contact us online!</p>
+        <p><span>Address:</span> 123 Tech Street, Digital City, DC 12345</p>
+        <p><span>Phone:</span> <a href="tel:555-0123">(555) 123-TECH</a></p>
+        <p><span>Email:</span> <a href="mailto:info@techstore.com">info@techstore.com</a></p>
+        <p><span>Hours:</span> Monday-Saturday 9AM-8PM, Sunday 11AM-6PM</p>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2025 TechStore. All rights reserved.</p>
+        <p>Follow us: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+    </div>
+</body>
+</html>
